@@ -17,7 +17,7 @@ namespace N8Tests
             Console.WriteLine("The default value is: " + defaultValue.ToString());
             
             var calculatedValue = CalculateOp(Operations.ADD,1,2);
-            Console.WriteLine(calculatedValue);
+            Console.WriteLine("The calculated value is: " + calculatedValue);
         
         }
         
